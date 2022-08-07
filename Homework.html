@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <p class="text-center"><b>What position(s) do you play?</b></p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Top">
+                    <label class="form-check-label" for="inLineCheckbox1">Top</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Jungle">
+                    <label class="form-check-label" for="inLineCheckbox1">Jungle</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Mid">
+                    <label class="form-check-label" for="inLineCheckbox1">Mid</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="ADC">
+                    <label class="form-check-label" for="inLineCheckbox1">ADC</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Support">
+                    <label class="form-check-label" for="inLineCheckbox1">Support</label>
+                </div>
+            </div> <br>
+            <div class="row">
+                <p class="text-center"><b>What is your highest rank achieved?</b></p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Bronze">
+                    <label class="form-check-label" for="radioRank">
+                      Bronze
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Silver">
+                    <label class="form-check-label" for="radioRank">
+                      Silver
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Gold">
+                    <label class="form-check-label" for="radioRank">
+                      Gold
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Platinum">
+                    <label class="form-check-label" for="radioRank">
+                      Platinum
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Diamond">
+                    <label class="form-check-label" for="radioRank">
+                      Diamond
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Master">
+                    <label class="form-check-label" for="radioRank">
+                      Master
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Grand Master">
+                    <label class="form-check-label" for="radioRank">
+                      Grand Master
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="radioRank" value="Challenger">
+                    <label class="form-check-label" for="radioRank">
+                      Challenger
+                    </label>
+                  </div>
+            </div> <br> <br>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-first-name"><b>First name</b></label>
+                        <input type="text" class="form-control" id="first-name" placeholder="First name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-last-name"><b>Last name</b></label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-tag"><b>Gamer Tag</b></label>
+                        <input type="text" class="form-control" id="gamer-tag" placeholder="Tag">
+                    </div>
+                </div>
+            </div> <br>
+            <button id="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div> <br> <br>
+
+
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Player</th>
+            <th>Position(s)</th>
+            <th>Rank</th>
+        </tr>
+    </table>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
+    <script src="Homework.js"></script>
+</body>
+</html>
